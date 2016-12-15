@@ -10,8 +10,8 @@ Getting started with this grid is super easy.
 # The Classes
   - `grid` is the master wrapper
   - `row` declares a row of columns
-  - `column` is required for each column
-  - `span-*` is used to span a column over a stated number of columns.
+  - `column` is required for each column. It's also equivalent to using the `span-1` class (see below).
+  - `span-*` is used to span a column over a stated number of columns. It's used in addition to the `column` class.
 
 # Want to use SASS?
 
