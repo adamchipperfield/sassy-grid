@@ -12,3 +12,7 @@ Getting started with this grid is super easy.
   - row declares a row of columns
   - column is required for each column
   - span-* is used to span a column over a stated number of columns.
+
+# Want to use SASS?
+
+If you are adventurous and would like to delve into the world of SASS, simply use the scss/styles.scss file in your SASS set up. Not used SASS before? Check out the awesome docs over as sass-lang.com.
