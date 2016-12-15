@@ -1,0 +1,45 @@
+$grid-columns: 12;
+
+@mixin column-width{
+	width: 100% / $grid-columns;
+}
+@mixin column-span-width($span){
+	width: 100% / $grid-columns * $span;
+}
+
+.grid{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+.row{
+	display: table;
+	width: 100%;
+}
+.column{
+	@include column-width();
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+	box-sizing: border-box;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@for $i from 1 through $grid-columns{
+	.column.span-#{$i}{
+		@include column-span-width($i);
+	}
+}
+
+@media (max-width: 960px){
+	.grid{
+		width: 100%;
+	}
+}
+@media (max-width: 760px){
+	.column, .column[class*='span-']{
+		width: 100%;
+	}
+}
