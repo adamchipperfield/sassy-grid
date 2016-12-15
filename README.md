@@ -15,4 +15,4 @@ Getting started with this grid is super easy.
 
 # Want to use SASS?
 
-If you are adventurous and would like to delve into the world of SASS, simply use the scss/styles.scss file in your SASS set up. Not used SASS before? Check out the awesome docs over as sass-lang.com.
+If you are adventurous and would like to delve into the world of SASS, simply use the scss/styles.scss file in your SASS set up. Not used SASS before? Check out the awesome docs over as [sass-lang.com](http://sass-lang.com/).
